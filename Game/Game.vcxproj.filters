@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Spaceship">
+      <UniqueIdentifier>{c93818d5-fe3a-4221-b595-fac3c838dfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Spaceship">
+      <UniqueIdentifier>{aaa5f6da-4738-4fcc-87bc-f1ab720b734b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Walls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LerpableAsteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainableAsteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsteroidChainController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spaceship.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShip.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipSystem.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShip.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSystem.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipFrame.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTurret.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTurret.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeDisplay.cpp">
+      <Filter>Source Files\Spaceship</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Walls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LerpableAsteroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainableAsteroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsteroidChainController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShip.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="Spaceship.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletSystem.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipSystem.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShip.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipFrame.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTurret.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTurret.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeDisplay.h">
+      <Filter>Header Files\Spaceship</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
